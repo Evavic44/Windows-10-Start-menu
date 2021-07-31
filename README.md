@@ -7,10 +7,11 @@
 
 <!-- Preview -->
 
-<h1 align="center"><b>Application List</b></h1>
+<h2 align="center"><b>Application List</b></h2>
 
-## **Sidebar**
+### **Sidebar**
 ### `Recently Added` 
+- Firefox Developer Edition
 - Adobe Photoshop 2020
 - VLC media player skinned
 - VLC media player
