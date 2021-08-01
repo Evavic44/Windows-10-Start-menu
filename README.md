@@ -1,7 +1,8 @@
-<h1 align="center"><b>Windows 10 Start Menu</b></h1>
+<h2 align="center"><b>Windows 10 Start Menu</b></h2>
+<img align="right" src="https://user-images.githubusercontent.com/62628408/127773923-842c944f-deda-4c71-8e3c-9598789d2d7b.png">
 <h3>This is a project of Windows 10 Glassmorphic Start Menu</h3>
 
-### **Built With**
+_**Built With**_
 <li>Semantic HTML</li>
 <li>CSS Grid</li>
 
