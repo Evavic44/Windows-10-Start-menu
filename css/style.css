@@ -1,18 +1,18 @@
 /* Scrollbar */
-.sidebar-icons::-webkit-scrollbar {
+.scrollbar::-webkit-scrollbar {
    width: 10px;
 }
 
-.sidebar-icons {
+.scrollbar {
    scrollbar-width: thin;
    scrollbar-color: rgba(255, 255, 255, 0.60) rgba(255, 255, 255, 0.116);
 }
 
-.sidebar-icons::-webkit-scrollbar-track {
+.scrollbar::-webkit-scrollbar-track {
    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.sidebar-icons::-webkit-scrollbar-thumb {
+.scrollbar::-webkit-scrollbar-thumb {
    background-color:rgba(255, 255, 255, 0.20);
 }
 
