@@ -22,6 +22,7 @@ img {width: 100%;}
 .container {
    height: 100vh;
    max-width: 800px;
+   margin-top: 3rem;
 }
 
 .grid-container {
@@ -31,7 +32,7 @@ img {width: 100%;}
 
 .sidebar {
    display: grid;
-   grid-template-columns: 65px 400px;
+   grid-template-columns: 65px 300px;
    margin: 10px 0;
 }
 
@@ -42,6 +43,10 @@ nav {
    justify-content: space-between;
    height: 100vh;
    padding: 0.2rem 0 0;
+}
+
+nav ul {
+   margin-bottom: 3rem;
 }
 
 nav > * {
@@ -63,13 +68,14 @@ nav ul li {
 
 
 
+/* Scrollbar */
 .sidebar-icons::-webkit-scrollbar {
    width: 10px;
 }
 
 .sidebar-icons {
    scrollbar-width: thin;
-   scrollbar-color: rgba(255, 255, 255, 0.5) rgba(255, 255, 255, 0.1);
+   scrollbar-color: rgba(255, 255, 255, 0.60) rgba(255, 255, 255, 0.116);
 }
 
 .sidebar-icons::-webkit-scrollbar-track {
@@ -78,7 +84,6 @@ nav ul li {
 
 .sidebar-icons::-webkit-scrollbar-thumb {
    background-color:rgba(255, 255, 255, 0.20);
-   box-shadow: 0 8px 32px 0 rgba(113, 114, 129, 0.1);
 }
 
 
@@ -98,7 +103,7 @@ nav ul li {
 
 /* Transparency */
 .bg-primary {
-   background: rgba(38, 38, 37, 0.9);
+   background: rgba( 0, 0, 0, 0.9);
    box-shadow: 0 8px 32px 0 rgba(113, 114, 129, 0.37);
    backdrop-filter: blur(0.0px);
    -webkit-backdrop-filter: blur(0.0px);
