@@ -1,19 +1,19 @@
 .container {
    height: 100vh;
-   max-width: 800px;
+   width: 800px;
    margin-top: 3rem;
 }
 
 /* Splits the sidebar and main content into two columns */
 .grid-container {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: 1.6fr 1.8fr;
 }
 
 /* Splits the sidebar content into two columns */
 .sidebar {
    display: grid;
-   grid-template-columns: 65px 300px;
+   grid-template-columns: 65px 1fr;
    margin: 10px 0;
 }
 
@@ -27,12 +27,9 @@ nav {
    padding: 0.2rem 0 0;
 }
 
+nav .hamburger, 
 nav ul {
-   margin-bottom: 3rem;
-}
-
-nav > * {
-   margin-right: 0.5rem;
+   margin-right: 1rem;
 }
 
 /* Space out individual hamburger icons  */
@@ -45,4 +42,44 @@ nav ul li {
    overflow-y: scroll;
    scroll-behavior: smooth;
    height: 90vh;
+   width: 100%;
+}
+
+.sidebar-icons ul li {
+   margin: 0.2rem 0;
+   width: 95%;
+   padding: 0.48rem;
+   border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.sidebar-icons ul, 
+.hamburger {
+   margin: 0rem 0 4rem;
+}
+
+/* Main */
+.main-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 5px;
+   height: 100%;
+   margin: 0 10px;
+}
+
+header {
+   margin-top: 1.1rem;
+   overflow-y: scroll;
+}
+
+header h4 {
+   margin-bottom: 1rem;
+}
+
+.box {
+   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.photos {
+   grid-column: 1 / 3;
+   grid-row: 2 / 4;
 }
