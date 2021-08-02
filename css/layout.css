@@ -62,7 +62,7 @@ nav ul li {
    grid-auto-rows: 115px;
    grid-gap: 5px;
    height: 100%;
-   margin: 0 10px 12rem;
+   margin: 0 1rem 12rem;
 }
 
 .applications {
