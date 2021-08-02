@@ -11,7 +11,7 @@ body {
    color: white;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    height: 100vh;
-   overflow-y: hidden;
+   overflow: hidden;
    font-size: 0.9rem;
 }
 

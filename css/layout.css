@@ -39,8 +39,6 @@ nav ul li {
 
 /* Add scroll to sidebar content */
 .sidebar-icons {
-   overflow-y: scroll;
-   scroll-behavior: smooth;
    height: 90vh;
    width: 100%;
 }
@@ -61,18 +59,18 @@ nav ul li {
 .main-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
+   grid-auto-rows: 115px;
    grid-gap: 5px;
    height: 100%;
-   margin: 0 10px;
+   margin: 0 10px 12rem;
 }
 
-header {
+.applications {
    margin-top: 1.1rem;
-   overflow-y: scroll;
 }
 
-header h4 {
-   margin-bottom: 1rem;
+.applications p {
+   margin: 0 0 1rem 0.6rem;
 }
 
 .box {
@@ -82,4 +80,8 @@ header h4 {
 .photos {
    grid-column: 1 / 3;
    grid-row: 2 / 4;
+}
+
+.groove {
+   grid-column: 2 / 4;
 }
