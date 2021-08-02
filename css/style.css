@@ -1,0 +1,42 @@
+/* Scrollbar */
+.sidebar-icons::-webkit-scrollbar {
+   width: 10px;
+}
+
+.sidebar-icons {
+   scrollbar-width: thin;
+   scrollbar-color: rgba(255, 255, 255, 0.60) rgba(255, 255, 255, 0.116);
+}
+
+.sidebar-icons::-webkit-scrollbar-track {
+   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-icons::-webkit-scrollbar-thumb {
+   background-color:rgba(255, 255, 255, 0.20);
+}
+
+/* Transparency */
+.bg-primary {
+   background: rgba( 0, 0, 0, 0.9);
+   box-shadow: 0 8px 32px 0 rgba(113, 114, 129, 0.37);
+   backdrop-filter: blur(0.0px);
+   -webkit-backdrop-filter: blur(0.0px);
+}
+
+.sidebar-icons ul li:hover {
+   background: rgba( 86, 85, 85, 0.00 );
+   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0);
+   backdrop-filter: blur( 0.0px );
+   -webkit-backdrop-filter: blur( 0.0px );
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.bg-secondary {
+   background: rgba( 61, 61, 57, 0.55);
+   box-shadow: 0 8px 32px 0 rgba(113, 114, 129, 0.37);
+   backdrop-filter: blur(0.0px);
+   -webkit-backdrop-filter: blur(0.0px);
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.20);
+}

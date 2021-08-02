@@ -1,0 +1,37 @@
+/* CSS reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Main style */
+body {
+   background: url(images/wallpapers/windows.jpg) no-repeat center center/cover;
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   height: 100vh;
+   overflow-y: hidden;
+   font-size: 0.9rem;
+}
+
+ul {
+   list-style: none;
+}
+
+img {
+   width: 100%;
+}
+
+/* image/icon widths */
+.width-small {
+   width: 21.9px;
+}
+
+.width-medium {
+   width: 40px;
+}
+
+.width-large {
+   width: 60px;
+}
