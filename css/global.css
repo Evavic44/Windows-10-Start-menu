@@ -7,7 +7,7 @@
 
 /* Main style */
 body {
-   background: url(images/wallpapers/windows.jpg) no-repeat center center/cover;
+   background: url(/images/wallpapers/windows.jpg) no-repeat center center/cover;
    color: white;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    height: 100vh;
