@@ -1,14 +1,16 @@
-<h2 align="center"><b>Windows 10 Start Menu</b></h2>
-<img align="right" src="https://user-images.githubusercontent.com/62628408/127773923-842c944f-deda-4c71-8e3c-9598789d2d7b.png" width="60px">
+# Windows 10 Start Menu <img align="right" src="https://user-images.githubusercontent.com/62628408/128092983-47c7be1b-c747-4727-9483-baca3dc891a5.png" width="100px">
 
-
-<h3>This is a project of Windows 10 Glassmorphic Start Menu</h3>
-
-_**Built With**_
-<li>Semantic HTML</li>
-<li>CSS Grid</li>
+<p>This project aims to highlight how powerful CSS grid is in building layouts.</p>
 
 <!-- Preview -->
+
+### **Resources**
+_Recommended resource links to check out if you're interested in this project_
+- <a href="https://glassmorphism.com/">Glassmorphisim</a>
+- <a href="https://icons8.com/">Icons8</a>
+- <a href="https://worldvectorlogo.com/">World Vector Logo</a>
+- <a href="https://lucide.dev/">Lucide.dev</a>
+- <a href="https://www.flaticon.com/">Flaticon</a>
 
 <h2 align="center"><b>Application List</b></h2>
 
