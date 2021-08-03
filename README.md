@@ -1,4 +1,4 @@
-# Windows 10 Start Menu <img align="right" src="https://user-images.githubusercontent.com/62628408/128092983-47c7be1b-c747-4727-9483-baca3dc891a5.png" width="150px">
+# Windows 10 Start Menu <img align="right" src="https://user-images.githubusercontent.com/62628408/128092983-47c7be1b-c747-4727-9483-baca3dc891a5.png" width="100px">
 
 <p>This project aims to highlight how powerful CSS grid is in building layouts.</p>
 
