@@ -19,14 +19,14 @@
 
 /* Transparency */
 .bg-primary {
-   background: rgba(0, 0, 0, 0.75);
+   background: rgb(39, 39, 38);
    box-shadow: 0 8px 32px 0 rgba(113, 114, 129, 0.37);
    backdrop-filter: blur(0.0px);
    -webkit-backdrop-filter: blur(0.0px);
 }
 
 .sidebar-icons ul li:hover {
-   background: rgba( 255, 255, 255, 0.5);
+   background: rgba( 255, 255, 255, 0.2);
    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0);
    backdrop-filter: blur( 0.0px );
    -webkit-backdrop-filter: blur( 0.0px );
@@ -42,27 +42,21 @@ nav li:hover {
    background: rgba( 255, 255, 255, 0.3);
 }
 
+/* Backgrounds */
 .bg-secondary {
-   background: rgba( 61, 61, 57, 0.55);
-   box-shadow: 0 8px 32px 0 rgba(113, 114, 129, 0.37);
-   backdrop-filter: blur(0.0px);
-   -webkit-backdrop-filter: blur(0.0px);
-   border-radius: 10px;
-   border: 1px solid rgba(255, 255, 255, 0.20);
+   background: rgba(59, 59, 56, 0.664);
+   border: 1px solid rgba(59, 59, 56, 0);
 }
 
-/* Main Icons */
+.bg-secondary:hover {
+   background: rgba( 255, 255, 255, 0.2);
+}
+
 .office {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
    background: #D83B01;
 }
 
-.office img {
-   width: 50px;
-}
+
 
 /* Animations */
 /* @keyframes bg-animation {
