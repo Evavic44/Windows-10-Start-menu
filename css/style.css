@@ -19,18 +19,27 @@
 
 /* Transparency */
 .bg-primary {
-   background: rgba(0, 0, 0, 0.6);
+   background: rgba(0, 0, 0, 0.75);
    box-shadow: 0 8px 32px 0 rgba(113, 114, 129, 0.37);
    backdrop-filter: blur(0.0px);
    -webkit-backdrop-filter: blur(0.0px);
 }
 
 .sidebar-icons ul li:hover {
-   background: rgba( 86, 85, 85, 0.00);
+   background: rgba( 255, 255, 255, 0.3);
    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0);
    backdrop-filter: blur( 0.0px );
    -webkit-backdrop-filter: blur( 0.0px );
    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+nav li {
+   border: 1px solid rgba(255, 255, 255, 0);
+   padding: 0.7rem 0.9rem;
+}
+
+nav li:hover {
+   background: rgba( 255, 255, 255, 0.3);
 }
 
 .bg-secondary {
@@ -43,7 +52,7 @@
 }
 
 /* Animations */
-@keyframes bg-animation {
+/* @keyframes bg-animation {
    0% {background: url(/images/wallpapers/bg-1.jpg) no-repeat center center/cover;}
    12.5% {background: url(/images/wallpapers/bg-2.jpg) no-repeat center center/cover;}
    23% {background: url(/images/wallpapers/bg-3.jpg) no-repeat center center/cover;}
@@ -53,4 +62,4 @@
    73% {background: url(/images/wallpapers/bg-7.png) no-repeat center center/cover;}
    80% {background: url(/images/wallpapers/bg-8.jpg) no-repeat center center/cover;}
    100% {background: url(/images/wallpapers/bg-1.jpg) no-repeat center center/cover;}
-}
+} */

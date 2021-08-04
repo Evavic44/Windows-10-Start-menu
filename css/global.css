@@ -8,6 +8,7 @@
 /* Main style */
 body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: url(/images/wallpapers/bg-1.jpg) no-repeat center center/cover;
    height: 100vh;
    overflow: hidden;
    color: white;
@@ -15,12 +16,13 @@ body {
    animation: bg-animation 100s infinite forwards step-end;
 }
 
-ul {
+li {
    list-style: none;
 }
 
-li {
+li, p {
    font-size: 0.75rem;
+   cursor: default;
 }
 
 img {
@@ -29,7 +31,7 @@ img {
 
 /* image/icon widths */
 .width-small {
-   width: 20px;
+   width: 19px;
 }
 
 .width-medium {
