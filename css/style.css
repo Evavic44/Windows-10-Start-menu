@@ -19,14 +19,14 @@
 
 /* Transparency */
 .bg-primary {
-   background: rgba( 0, 0, 0, 0.9);
+   background: rgba(0, 0, 0, 0.6);
    box-shadow: 0 8px 32px 0 rgba(113, 114, 129, 0.37);
    backdrop-filter: blur(0.0px);
    -webkit-backdrop-filter: blur(0.0px);
 }
 
 .sidebar-icons ul li:hover {
-   background: rgba( 86, 85, 85, 0.00 );
+   background: rgba( 86, 85, 85, 0.00);
    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0);
    backdrop-filter: blur( 0.0px );
    -webkit-backdrop-filter: blur( 0.0px );
@@ -39,5 +39,18 @@
    backdrop-filter: blur(0.0px);
    -webkit-backdrop-filter: blur(0.0px);
    border-radius: 10px;
-   border: 1px solid rgba( 255, 255, 255, 0.20);
+   border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+/* Animations */
+@keyframes bg-animation {
+   0% {background: url(/images/wallpapers/bg-1.jpg) no-repeat center center/cover;}
+   12.5% {background: url(/images/wallpapers/bg-2.jpg) no-repeat center center/cover;}
+   23% {background: url(/images/wallpapers/bg-3.jpg) no-repeat center center/cover;}
+   35.5% {background: url(/images/wallpapers/bg-4.jpg) no-repeat center center/cover;}
+   48% {background: url(/images/wallpapers/bg-5.jpg) no-repeat center center/cover;}
+   60.5% {background: url(/images/wallpapers/bg-6.jpg) no-repeat center center/cover;}
+   73% {background: url(/images/wallpapers/bg-7.png) no-repeat center center/cover;}
+   80% {background: url(/images/wallpapers/bg-8.jpg) no-repeat center center/cover;}
+   100% {background: url(/images/wallpapers/bg-1.jpg) no-repeat center center/cover;}
 }
