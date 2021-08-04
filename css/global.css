@@ -19,17 +19,21 @@ ul {
    list-style: none;
 }
 
+li {
+   font-size: 0.75rem;
+}
+
 img {
    width: 100%;
 }
 
 /* image/icon widths */
 .width-small {
-   width: 21.9px;
+   width: 20px;
 }
 
 .width-medium {
-   width: 40px;
+   width: 25px;
 }
 
 .width-large {

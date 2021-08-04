@@ -7,7 +7,7 @@
 /* Splits the sidebar and main content into two columns */
 .grid-container {
    display: grid;
-   grid-template-columns: 1.6fr 1.8fr;
+   grid-template-columns: 1.3fr 1.8fr;
 }
 
 /* Splits the sidebar content into two columns */
@@ -24,17 +24,20 @@ nav {
    align-items: center;
    justify-content: space-between;
    height: 100vh;
-   padding: 0.2rem 0 0;
+   padding: 0.2rem 0 0 0.7rem;
 }
 
-nav .hamburger, 
-nav ul {
-   margin-right: 1rem;
+nav .hamburger {
+   margin: 0.5rem 1rem 0 0;
 }
 
 /* Space out individual hamburger icons  */
+nav ul {
+   margin: 0 1rem 3rem 0;
+}
+
 nav ul li {
-   margin: 1.3rem 0;
+   margin-bottom: 1.4rem;
 }
 
 /* Add scroll to sidebar content */
@@ -44,10 +47,16 @@ nav ul li {
 }
 
 .sidebar-icons ul li {
+   display: flex;
+   align-items: center;
    margin: 0.2rem 0;
    width: 95%;
    padding: 0.48rem;
    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.sidebar-icons ul li img {
+   margin-right: 7px;
 }
 
 .sidebar-icons ul, 
