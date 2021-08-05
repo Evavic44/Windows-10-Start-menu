@@ -2,6 +2,8 @@
 
 <p>This project aims to highlight how powerful CSS grid is in building layouts.</p>
 
+<a href="https://windows-10-start-menu.netlify.app/">Live Preview</a>
+
 ### **Resources**
 _Recommended resource links to check out if you're interested in this project_
 - <a href="https://glassmorphism.com/">Glassmorphisim</a>
