@@ -101,7 +101,7 @@ nav ul {
 }
 
 .photos {
-   background: url(/images/wallpapers/bg-2.jpg) no-repeat center center/cover;
+   /* background: url(/images/wallpapers/bg-2.jpg) no-repeat center center/cover; */
    grid-column: 1 / 3;
    grid-row: 2 / 4;
 }

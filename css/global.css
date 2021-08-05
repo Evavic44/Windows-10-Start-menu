@@ -13,7 +13,6 @@ body {
    overflow: hidden;
    color: white;
    font-size: 0.8rem;
-   animation: bg-animation 100s infinite forwards step-end;
 }
 
 li {
@@ -42,4 +41,6 @@ img {
    width: 37px;
 }
 
-/* Background */
+.bg-animation {
+   animation: bg-animation 100s infinite forwards step-end;
+}

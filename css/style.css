@@ -57,10 +57,9 @@ nav li:hover {
 }
 
 
-
 /* Animations */
-/* @keyframes bg-animation {
-   0% {background: url(/images/wallpapers/bg-1.jpg) no-repeat center center/cover;}
+@keyframes bg-animation {
+   0% {background: url(/images/wallpapers/bg-4.jpg) no-repeat center center/cover;}
    12.5% {background: url(/images/wallpapers/bg-2.jpg) no-repeat center center/cover;}
    23% {background: url(/images/wallpapers/bg-3.jpg) no-repeat center center/cover;}
    35.5% {background: url(/images/wallpapers/bg-4.jpg) no-repeat center center/cover;}
@@ -68,5 +67,5 @@ nav li:hover {
    60.5% {background: url(/images/wallpapers/bg-6.jpg) no-repeat center center/cover;}
    73% {background: url(/images/wallpapers/bg-7.png) no-repeat center center/cover;}
    80% {background: url(/images/wallpapers/bg-8.jpg) no-repeat center center/cover;}
-   100% {background: url(/images/wallpapers/bg-1.jpg) no-repeat center center/cover;}
-} */
+   100% {background: url(/images/wallpapers/bg-3.jpg) no-repeat center center/cover;}
+}
