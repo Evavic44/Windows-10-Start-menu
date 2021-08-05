@@ -19,7 +19,7 @@
 
 /* Transparency */
 .bg-primary {
-   background: rgb(39, 39, 38);
+   background: rgba(39, 39, 38, 0.98);
    box-shadow: 0 8px 32px 0 rgba(113, 114, 129, 0.37);
    backdrop-filter: blur(0.0px);
    -webkit-backdrop-filter: blur(0.0px);
