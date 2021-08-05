@@ -24,11 +24,11 @@ li, p {
    cursor: default;
 }
 
+/* image/icon widths */
 img {
    width: 100%;
 }
 
-/* image/icon widths */
 .width-small {
    width: 19px;
 }
@@ -39,8 +39,4 @@ img {
 
 .width-large {
    width: 37px;
-}
-
-.bg-animation {
-   animation: bg-animation 100s infinite alternate-reverse ease-in-out;
 }
