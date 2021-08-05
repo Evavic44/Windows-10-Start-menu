@@ -42,5 +42,5 @@ img {
 }
 
 .bg-animation {
-   animation: bg-animation 100s infinite forwards step-end;
+   animation: bg-animation 100s infinite alternate-reverse ease-in-out;
 }
